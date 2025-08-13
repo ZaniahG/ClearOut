@@ -255,7 +255,6 @@ h1{
 /* QR Code Section Styling */
 
 .qr-code-container {
-    background-image: url("assets/ClearOut App QR-Code.png") !important;
     display: inline-block;
     padding: 15px;
     background: white;
