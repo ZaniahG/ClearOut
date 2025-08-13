@@ -254,6 +254,15 @@ h1{
 
 /* QR Code Section Styling */
 
+.qr-code-container {
+    display: inline-block;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
 .qr-code-image {
     width: auto; /* Allow natural width */
     height: auto; /* Maintain aspect ratio */
