@@ -265,9 +265,9 @@ h1{
 }
 
 .qr-code-image {
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
+    width: auto; /* Allow natural width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Maximum width */
     border-radius: 8px;
 }
 
