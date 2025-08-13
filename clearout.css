@@ -254,21 +254,13 @@ h1{
 
 /* QR Code Section Styling */
 
-.qr-code-container {
-    background-image: url("assets/ClearOut App QR-Code.png") !important;
-    display: inline-block;
-    padding: 15px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-
-}
-
 .qr-code-image {
     width: auto; /* Allow natural width */
     height: auto; /* Maintain aspect ratio */
-    max-width: 300px; /* Maximum width */
+    max-width: 100px; /* Maximum width */
     border-radius: 8px;
+    margin-left: -50px;
+    margin-top: -10px;
 }
 
 /* Responsive QR Code */
@@ -297,10 +289,21 @@ h1{
 }
 
 .social-cta {
+    background: #6EFAED; /* Ensure a solid background color */
+    color: white;
+    padding: 50px 40px;
+    border-radius: 15px;
     text-align: center;
-    margin-top: 50px;
-    padding-top: 40px;
-    border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.social-btn {
+    background: #6EFAED; /* Change to a solid color */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 
 .social-cta h3 {
