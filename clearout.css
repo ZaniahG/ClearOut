@@ -747,53 +747,7 @@ h1{
     font-size: 1.2em;
 }
 
-/* ClearOut Donation Page */
-.donatehdr h1,p{
-  text-align: center; /* Centers all inline content inside */
-}
 
-
-
-
-section {
-    padding: 20px;
-    margin: 15px auto;
-    background-color: white;
-    border-radius: 8px;
-    max-width: 800px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.donate-section {
-    text-align: center;
-    background: linear-gradient(135deg, #F0A410 0%, #6EFAED 100%);
-}
-.info-section h2,p,h3{
-    text-align: center;
-    margin-bottom: 10px;
-}
-.info-section2 h2, p {
-    text-align: center;
-    margin-top: 10px;
-}
-.info-section2 {
-    background: linear-gradient(135deg, #F0A410 0%, #6EFAED 100%);
-}
-
-.donate-button {
-    background-color: #2BC6BB;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.donate-button:hover {
-    background-color: #6EFAED;
-}
 
 ul {
     list-style-type: disc;
