@@ -254,22 +254,14 @@ h1{
 
 /* QR Code Section Styling */
 
-.qr-code-container {
-    display: inline-block;
-    padding: 15px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-
-}
 
 .qr-code-image {
-    width: auto; /* Allow natural width */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100px; /* Maximum width */
+    width: 500px; /* Allow natural width */
+    height: 500px; /* Maintain aspect ratio */
+    /* Maximum width */
     border-radius: 8px;
-    margin-left: -50px;
-    margin-top: -15px;
+    margin-left: -250px;
+    margin-top: -200px;
 }
 
 /* Responsive QR Code */
